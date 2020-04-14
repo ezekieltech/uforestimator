@@ -48,15 +48,15 @@
                             <input name="population" type="number" class="form-control"
                                 placeholder="Population" data-population="population" required autofocus>
 
-                            <label for="timeToElapse">Population</label>
+                            <label for="timeToElapse">Time to Elapse</label>
                             <input name="timeToElapse" type="number" class="form-control"
                                 placeholder="Time To Elapse in Days" data-time-to-elapse="timeToElapse" required>
 
-                            <label for="reportedCases">Population</label>
+                            <label for="reportedCases">Number of Reported Cases</label>
                             <input name="reportedCases" type="number" class="form-control"
                                 placeholder="Number of Reported Cases" data-reported-cases="reportedCases" required>
 
-                            <label for="totalHospitalBeds">Population</label>
+                            <label for="totalHospitalBeds">Total Number of Hosipital Beds</label>
                             <input name="totalHospitalBeds" type="number" class="form-control" placeholder="Total Number of Hospital Beds"
                                 data-total-hospital-beds="totalHospitalBeds" required>
 
