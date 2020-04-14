@@ -60,13 +60,13 @@
                             <input name="totalHospitalBeds" type="number" class="form-control" placeholder="Total Number of Hospital Beds"
                                 data-total-hospital-beds="totalHospitalBeds" required>
 
-                            <p>Please select Input Period Type:</p>
+                            <p>Select Input Period Type:</p>
                             <input type="radio" data-period-type= "inputPeriodTypeDays" name="inputPeriodType" >
-                            <label for="inputPeriodTypeDays">Days</label><br>
+                            <label class="radioLabels" for="inputPeriodTypeDays">Days</label><br>
                             <input type="radio" data-period-type= "inputPeriodTypeDays" name="inputPeriodType">
-                            <label for="age2">Weeks</label><br>
+                            <label class="radioLabels" for="age2">Weeks</label><br>
                             <input type="radio" data-period-type= "inputPeriodTypeDays" name="inputPeriodType">
-                            <label for="age3">Months</label><br><br>
+                            <label class="radioLabels" for="age3">Months</label><br><br>
 
                             <button class="btn btn-lg btn-primary btn-block" data-go-
                             estimate= "estimate" type="submit"> Submit </button>
