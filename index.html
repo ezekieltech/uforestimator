@@ -41,28 +41,22 @@
                     <div class="block">
                         <h4 class="widget-title">
                             User Input
-                            <!-- {% if success_message %}
-                            <span class="success-msg">
-                                <strong>
-                                    
-                                    {{success_message}}
-                                    
-                                </strong>
-                            </span>
-                            {% endif %} -->
                         </h4>
                         <form class="checkout-form" method='post'>
 
+                            <label for="population">Population</label>
                             <input name="population" type="number" class="form-control"
                                 placeholder="Population" data-population="population" required autofocus>
 
+                            <label for="timeToElapse">Population</label>
                             <input name="timeToElapse" type="number" class="form-control"
                                 placeholder="Time To Elapse in Days" data-time-to-elapse="timeToElapse" required>
 
-
+                            <label for="reportedCases">Population</label>
                             <input name="reportedCases" type="number" class="form-control"
                                 placeholder="Number of Reported Cases" data-reported-cases="reportedCases" required>
 
+                            <label for="totalHospitalBeds">Population</label>
                             <input name="totalHospitalBeds" type="number" class="form-control" placeholder="Total Number of Hospital Beds"
                                 data-total-hospital-beds="totalHospitalBeds" required>
 
